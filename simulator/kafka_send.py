@@ -51,7 +51,7 @@ def generate_measurement():
     return measurement_json
 
 def main():
-    topic = 'sensor_data'
+    topic = 'nifi-dummy'
 
     try:
         while True:
