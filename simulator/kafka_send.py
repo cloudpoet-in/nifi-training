@@ -62,7 +62,7 @@ def main():
             # Wait for the message to be delivered
             producer.poll(1)
             # Sleep for a specified interval before sending the next message (e.g., 1 second)
-            time.sleep(1)
+            time.sleep(5)
     except KeyboardInterrupt:
         pass
     finally:
