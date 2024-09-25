@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<template encoding-version="1.3">
+    <description></description>
+    <groupId>28a8ad0f-0192-1000-87b3-f27280f5165d</groupId>
+    <name>GrokPatterns</name>
+    <snippet>
+        <connections>
+            <id>850ca5c3-956d-33bf-0000-000000000000</id>
+            <parentGroupId>a058f20d-9de8-35f5-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>a058f20d-9de8-35f5-0000-000000000000</groupId>
+                <id>555685ce-b224-36a5-0000-000000000000</id>
+                <type>FUNNEL</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>unmatched</selectedRelationships>
+            <source>
+                <groupId>a058f20d-9de8-35f5-0000-000000000000</groupId>
+                <id>018b5aff-9957-38bf-0000-000000000000</id>
+                <type>PROCESSOR</type>
+                <versionedComponentId>018b5aff-9957-38bf-a821-bf1b9b3169e0</versionedComponentId>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>8bd8a001-b2d3-3eb3-0000-000000000000</id>
+            <parentGroupId>a058f20d-9de8-35f5-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>a058f20d-9de8-35f5-0000-000000000000</groupId>
+                <id>9a371f9a-3345-3d17-0000-000000000000</id>
+                <type>FUNNEL</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>matched</selectedRelationships>
+            <source>
+                <groupId>a058f20d-9de8-35f5-0000-000000000000</groupId>
+                <id>018b5aff-9957-38bf-0000-000000000000</id>
+                <type>PROCESSOR</type>
+                <versionedComponentId>018b5aff-9957-38bf-a821-bf1b9b3169e0</versionedComponentId>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>abd34d11-d2f1-3f50-0000-000000000000</id>
+            <parentGroupId>a058f20d-9de8-35f5-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>a058f20d-9de8-35f5-0000-000000000000</groupId>
+                <id>018b5aff-9957-38bf-0000-000000000000</id>
+                <type>PROCESSOR</type>
+                <versionedComponentId>018b5aff-9957-38bf-a821-bf1b9b3169e0</versionedComponentId>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>a058f20d-9de8-35f5-0000-000000000000</groupId>
+                <id>5d500f80-c0ae-343b-0000-000000000000</id>
+                <type>PROCESSOR</type>
+                <versionedComponentId>5d500f80-c0ae-343b-a16f-932a31844022</versionedComponentId>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <funnels>
+            <id>555685ce-b224-36a5-0000-000000000000</id>
+            <parentGroupId>a058f20d-9de8-35f5-0000-000000000000</parentGroupId>
+            <position>
+                <x>589.5</x>
+                <y>305.5</y>
+            </position>
+        </funnels>
+        <funnels>
+            <id>9a371f9a-3345-3d17-0000-000000000000</id>
+            <parentGroupId>a058f20d-9de8-35f5-0000-000000000000</parentGroupId>
+            <position>
+                <x>158.5</x>
+                <y>504.5</y>
+            </position>
+        </funnels>
+        <processors>
+            <id>018b5aff-9957-38bf-0000-000000000000</id>
+            <parentGroupId>a058f20d-9de8-35f5-0000-000000000000</parentGroupId>
+            <position>
+                <x>0.0</x>
+                <y>248.0</y>
+            </position>
+            <versionedComponentId>018b5aff-9957-38bf-a821-bf1b9b3169e0</versionedComponentId>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.27.0</version>
+            </bundle>
+            <config>
+                <backoffMechanism>PENALIZE_FLOWFILE</backoffMechanism>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Grok Expression</key>
+                        <value>
+                            <name>Grok Expression</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Grok Pattern file</key>
+                        <value>
+                            <name>Grok Pattern file</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Destination</key>
+                        <value>
+                            <name>Destination</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Character Set</key>
+                        <value>
+                            <name>Character Set</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Maximum Buffer Size</key>
+                        <value>
+                            <name>Maximum Buffer Size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Named captures only</key>
+                        <value>
+                            <name>Named captures only</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Keep Empty Captures</key>
+                        <value>
+                            <name>Keep Empty Captures</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <maxBackoffPeriod>10 mins</maxBackoffPeriod>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Grok Expression</key>
+                        <value>%{IPV4:ip} - - "%{WORD:request_type} / %{WORD:protocol}/%{NUMBER:protcol_version}" %{NUMBER:status_code} %{GREEDYDATA:remaining_part}</value>
+                    </entry>
+                    <entry>
+                        <key>Grok Pattern file</key>
+                        <value>https://raw.githubusercontent.com/logstash-plugins/logstash-patterns-core/refs/heads/main/patterns/legacy/grok-patterns</value>
+                    </entry>
+                    <entry>
+                        <key>Destination</key>
+                        <value>flowfile-content</value>
+                    </entry>
+                    <entry>
+                        <key>Character Set</key>
+                        <value>UTF-8</value>
+                    </entry>
+                    <entry>
+                        <key>Maximum Buffer Size</key>
+                        <value>1 MB</value>
+                    </entry>
+                    <entry>
+                        <key>Named captures only</key>
+                        <value>true</value>
+                    </entry>
+                    <entry>
+                        <key>Keep Empty Captures</key>
+                        <value>true</value>
+                    </entry>
+                </properties>
+                <retryCount>10</retryCount>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>ExtractGrok</name>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>matched</name>
+                <retry>false</retry>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>unmatched</name>
+                <retry>false</retry>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.ExtractGrok</type>
+        </processors>
+        <processors>
+            <id>5d500f80-c0ae-343b-0000-000000000000</id>
+            <parentGroupId>a058f20d-9de8-35f5-0000-000000000000</parentGroupId>
+            <position>
+                <x>0.0</x>
+                <y>0.0</y>
+            </position>
+            <versionedComponentId>5d500f80-c0ae-343b-a16f-932a31844022</versionedComponentId>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.27.0</version>
+            </bundle>
+            <config>
+                <backoffMechanism>PENALIZE_FLOWFILE</backoffMechanism>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>File Size</key>
+                        <value>
+                            <name>File Size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Batch Size</key>
+                        <value>
+                            <name>Batch Size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Data Format</key>
+                        <value>
+                            <name>Data Format</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Unique FlowFiles</key>
+                        <value>
+                            <name>Unique FlowFiles</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>generate-ff-custom-text</key>
+                        <value>
+                            <name>generate-ff-custom-text</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>character-set</key>
+                        <value>
+                            <name>character-set</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>mime-type</key>
+                        <value>
+                            <name>mime-type</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <maxBackoffPeriod>10 mins</maxBackoffPeriod>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>File Size</key>
+                        <value>0B</value>
+                    </entry>
+                    <entry>
+                        <key>Batch Size</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>Data Format</key>
+                        <value>Text</value>
+                    </entry>
+                    <entry>
+                        <key>Unique FlowFiles</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>generate-ff-custom-text</key>
+                        <value>192.168.65.1 - - "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" "-"</value>
+                    </entry>
+                    <entry>
+                        <key>character-set</key>
+                        <value>UTF-8</value>
+                    </entry>
+                    <entry>
+                        <key>mime-type</key>
+                    </entry>
+                </properties>
+                <retryCount>10</retryCount>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>1 min</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>GenerateFlowFile</name>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+                <retry>false</retry>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.GenerateFlowFile</type>
+        </processors>
+    </snippet>
+    <timestamp>09/25/2024 10:10:30 UTC</timestamp>
+</template>
