@@ -1,6 +1,6 @@
 # Docker Compose Setup for Nginx, NiFi, and Zookeeper
 
-This repository provides a Docker Compose configuration to set up an environment with Nginx, NiFi, and Zookeeper. The configuration ensures that Nginx serves as a reverse proxy to NiFi and that Zookeeper is used as a coordination service.
+This directory provides a Docker Compose configuration to set up an environment with Nginx, NiFi, and Zookeeper. The configuration ensures that Nginx serves as a reverse proxy to NiFi and that Zookeeper is used as a coordination service.
 
 ## Services
 
