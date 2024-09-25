@@ -1,1 +1,6 @@
+/my-nifi-cluster.iml
+target
+.idea
+es_ca.*
+.DS_Store
 **/data/*
